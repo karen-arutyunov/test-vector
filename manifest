@@ -7,7 +7,7 @@ description-file: README.md
 url: https://example.org/test-vector
 email: karen@codesynthesis.com
 #build-error-email: karen@codesynthesis.com
-builds: host : &default
+builds: host
 depends: * build2 >= 0.13.0
 depends: * bpkg >= 0.13.0
 #depends: libhello ^1.0.0
